@@ -1,0 +1,27 @@
+<% include partials/header.ejs %>
+
+        		<li><a href="/" >Home</a></li>
+                <li><a href="/cplusplus">C++</a></li>
+                <li class="active"><a href="/java">Java</a></li>
+        		<li><a href="/python">Python</a></li>
+        	</ul>
+        <br> 
+                	
+        <h1 class="title">Java</h1>
+        
+        <main class="sub">
+            <figure>
+        		<img src="img/java.png" alt="Oracle's Java logo">
+        	</figure>
+        		
+        	<div class="desc">
+        	Created by Sun Microsystems in the early <%= date %>s, Java was originally designed for digital devices. 
+        	Its focus was shifted upon release, with V1.0 being orientated towards internet applications.
+        	Over the years, it has evolved and grown into a robust programming language that can be used on 
+        	a wide range of devices on and off the internet. <br>
+        	Java is an object orientated programming language that is easy to use, reliable, and secure. Its
+        	 compiled applications can be ran on any digital machine that has the Java Runtime Environment installed.
+        	</div>
+        </main>
+
+<% include partials/footer.ejs %>

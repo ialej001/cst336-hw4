@@ -1,0 +1,33 @@
+<% include partials/header.ejs %>
+
+        		<li><a href="/" >Home</a></li>
+                <li class="active"><a href="/cplusplus">C++</a></li>
+                <li><a href="/java">Java</a></li>
+        		<li><a href="/python">Python</a></li>
+        	</ul>
+        <br> 
+                	
+        <h1 class="title">C++</h1>
+        
+        <main class="sub">
+            <figure>
+        		<img src="img/c++.png" alt="C++!">
+        	</figure>
+        		
+        	<div class="desc">
+        	C++ gets its name from its creator, Bjarne Stroustrup. The operator '++' is in C and means to increment 
+        	a number by 1. C++ was meant to be a successor to C and its major improvement upon C was the addition of 
+        	classes and transition C into an object orientated language. Other improvements made were the addition of
+        	inheritance, default function arguments, and strong type checking. C++ is still being maintained and developed. 
+        	It's newest update was in 2011 with C++11.</div>
+        </main>
+
+        <footer>
+            <hr>
+            <p><a href="http://www.cplusplus.com/info/history/">Resource cited.</a></p>
+            CST336 internet Programming. 2019&copy; Alejandre <br/>
+            <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br>
+            It is used for academic purposes only.
+        </footer>
+    </body>
+</html>

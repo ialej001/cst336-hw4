@@ -1,0 +1,33 @@
+<% include partials/header.ejs %>
+
+        		<li><a href="/" >Home</a></li>
+                <li><a href="/cplusplus">C++</a></li>
+                <li><a href="/java">Java</a></li>
+        		<li class="active"><a href="/python">Python</a></li>
+        	</ul>
+        <br> 
+                	
+        <h1 class="title">Python</h1>
+        
+        <main class="sub">
+            <figure>
+        		<img src="img/python.png" alt="Sssss.....">
+        	</figure>
+        		
+        	<div class="desc">
+        	Python was conceived and developed in the Netherlands as a successor to the ABC language.
+        	Deployed in the early 1990s, Python has gone through a number of revisions with each pass 
+        	adding more features. Python is a robust scripting language that is also object orientated.
+        	One of its claims to fame is its simple syntax.
+        	</div>
+        </main>
+
+        <footer>
+            <hr>
+            <p><a href="https://medium.com/@johnwolfe820/a-brief-history-of-python-ca2fa1f2e99e">Resource cited.</a></p>
+            CST336 Internet Programming. 2019&copy; Alejandre <br/>
+            <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br>
+            It is used for academic purposes only.
+        </footer>
+    </body>
+</html>
