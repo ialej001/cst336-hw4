@@ -22,11 +22,11 @@ app.get("/cplusplus", function(req,res) {
 });
 
 //local server listener
-app.listen("8081","127.0.0.1", function() {
+/*app.listen("8081","127.0.0.1", function() {
     console.log("Express Server is Running...");
-});
+});*/
 
 //heroku server listener
-/*app.listen(process.env.PORT, process.env.IP, function() {
+app.listen(process.env.PORT, process.env.IP, function() {
     console.log("Running Express Server...");
-});*/
+});
